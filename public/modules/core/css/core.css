@@ -1,15 +1,52 @@
 .content {
-	margin-top: 50px;
+    margin-top: 50px;
 }
+
 .undecorated-link:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-	display: none !important;
+    display: none !important;
 }
+
 .ng-invalid.ng-dirty {
-	border-color: #FA787E;
+    border-color: #FA787E;
 }
+
 .ng-valid.ng-dirty {
-	border-color: #78FA89;
+    border-color: #78FA89;
+}
+
+.panel {
+    padding: 20px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+}
+
+.email-capture {
+    font-weight: bold;
+    height: 26px;
+    width: 200px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-right: 3px;
+    border: 1px solid #AEAEAE;
+}
+
+.call-to-action {
+    background-color: #4679BD;
+    height: 37px;
+    border: 1px solid #BBB;
+    border-radius: 3px;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+}
+
+.alert-message {
+    background-color: rgb(255, 205, 205);
+    border: 1px solid red;
+    display: none;
 }
